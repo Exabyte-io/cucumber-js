@@ -113,7 +113,6 @@
     "commander": "^2.9.0",
     "duration": "^0.2.0",
     "figures": "1.7.0",
-    "fibers": "^4.0.3",
     "gherkin": "4.0.0",
     "glob": "^7.0.0",
     "is-generator": "^1.0.2",
@@ -137,6 +136,9 @@
     "serve-static": "^1.10.0",
     "sinon": "^1.17.3",
     "tmp": "0.0.28"
+  },
+  "peerDependencies": {
+    "fibers": "*"
   },
   "scripts": {
     "feature-test": "node ./bin/cucumber.js",
